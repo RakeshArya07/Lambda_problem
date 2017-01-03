@@ -33,4 +33,11 @@ public class MathMethodsTest {
         MathMethods mathMethods = new MathMethods(list);
         assertEquals(3, mathMethods.findMedian());
     }
+
+    @Test
+    public void getMode(){
+        int[] list = {3,1,7,3};
+        MathMethods mathMethods = new MathMethods(list);
+        assertEquals(3, mathMethods.findMode());
+    }
 }

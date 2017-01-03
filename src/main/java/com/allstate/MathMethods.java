@@ -21,9 +21,12 @@ public class MathMethods {
     }
 
     public int findMedian(){
-//      System.out.println("here"+Arrays.stream(this.list).sorted());
-        int size = (int) Arrays.stream(this.list).sorted().count()/2;
-        System.out.println(size);
-        return 10;
+        Arrays.sort(list);
+        return list[list.length/2];
+    }
+
+    public int findMode(){
+        
+        return list[list.length/2];
     }
 }
