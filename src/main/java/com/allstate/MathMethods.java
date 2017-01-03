@@ -1,9 +1,8 @@
 package com.allstate;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 import java.util.OptionalDouble;
+import java.util.stream.IntStream;
 
 /**
  * Created by localadmin on 03/01/17.
@@ -22,9 +21,9 @@ public class MathMethods {
     }
 
     public int findMedian(){
-        System.out.println(""Arrays.stream(this.list).sorted());
-
-       //return Arrays.stream(this.list).sorted()[0];
-        return  9;
+//      System.out.println("here"+Arrays.stream(this.list).sorted());
+        int size = (int) Arrays.stream(this.list).sorted().count()/2;
+        System.out.println(size);
+        return 10;
     }
 }
