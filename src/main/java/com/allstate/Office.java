@@ -1,0 +1,29 @@
+package com.allstate;
+
+/**
+ * Created by localadmin on 03/01/17.
+ */
+
+public class Office {
+    private String name;
+    private String location;
+    private int numberOfEmployees;
+
+    Office(String name, String location, int numberOfEmployees) {
+        this.name = name;
+        this.location = location;
+        this.numberOfEmployees = numberOfEmployees;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getLocation() {
+        return location;
+    }
+
+    public int getNumberOfEmployees() {
+        return numberOfEmployees;
+    }
+}
