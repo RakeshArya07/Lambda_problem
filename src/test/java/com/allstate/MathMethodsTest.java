@@ -31,6 +31,6 @@ public class MathMethodsTest {
     public void getMedian(){
         int[] list = {3,1,7,3};
         MathMethods mathMethods = new MathMethods(list);
-        assertEquals(3, mathMethods.findMedian().getAsDouble(), 0.1);
+        assertEquals(3, mathMethods.findMedian());
     }
 }

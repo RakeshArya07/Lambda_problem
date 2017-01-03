@@ -21,7 +21,10 @@ public class MathMethods {
         return Arrays.stream(this.list).average();
     }
 
-    public OptionalDouble findMedian(){
-        return Arrays.stream(this.list).sorted()/ (this.list);
+    public int findMedian(){
+        System.out.println(""Arrays.stream(this.list).sorted());
+
+       //return Arrays.stream(this.list).sorted()[0];
+        return  9;
     }
 }
